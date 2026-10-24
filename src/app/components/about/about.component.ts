@@ -29,8 +29,7 @@ export class AboutComponent {
       experienceYears--;
     }
   
-    // Return "2+ years of experience" if experience is 2 or more, otherwise return the actual years
-    return experienceYears >= 2 ? `${experienceYears}+ years of experience` : `${experienceYears} year of experience`;
+    return experienceYears === 1 ? `${experienceYears} year of experience` : `${experienceYears} years of experience`;
   }
   
 }
