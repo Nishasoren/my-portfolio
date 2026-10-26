@@ -17,7 +17,7 @@ export class ProfileComponent {
   }
 
   openResume() {
-    window.open("../../../assets/Kumari_Nisha_Soren_DotNet_API_Resume.pdf");
+    window.open("../../../assets/kumari_nisha_soren_resume(1).pdf", "_blank");
   }
 
   goToLinkedin() {
