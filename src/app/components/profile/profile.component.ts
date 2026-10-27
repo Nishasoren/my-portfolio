@@ -17,7 +17,7 @@ export class ProfileComponent {
   }
 
   openResume() {
-    window.open("../../../assets/Kumari_Nisha_Soren.pdf", "_blank");
+    window.open("../../../assets/nishasoren.pdf", "_blank");
   }
 
   goToLinkedin() {
